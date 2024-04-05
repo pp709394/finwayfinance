@@ -360,7 +360,7 @@ Our team has deep knowledge of the mortgage journey and is dedicated to guiding 
 		<!--/ End service -->
 
 		<!-- Start clients -->
-		<div class="clients overlay">
+		<div class="clients overlieay">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
@@ -434,5 +434,30 @@ Our team has deep knowledge of the mortgage journey and is dedicated to guiding 
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+		<script>
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 3,
+        nav: false
+      },
+      1000: {
+        items: 5,
+        nav: true,
+        loop: false
+      }
+    }
+  });
+});
+</script>
+
     </body>
 </html>
