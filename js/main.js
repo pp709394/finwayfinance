@@ -83,7 +83,7 @@ Version:	1.1
 			autoplay:true,
 			smartSpeed: 500,
 			autoplayTimeout:3500,
-			singleItem: true,
+			singleItem: false,
 			autoplayHoverPause:true,
 			items:1,
 			nav:true,
