@@ -121,60 +121,81 @@
 		</header>
 		<!-- End Header Area -->
 
-		<!-- Slider Area -->
-		<section class="slider">
-			<div class="hero-slider owl-carousel">
-				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider_1st_home_buyer.jpg'); background-position: right; background-size: contain;">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="text">
-									<h1>Start Your Journey with <span>First Home Buyer</span> Support</h1>
-									<p>Make your dream home a reality with tailored guidance and solutions.</p>
-									<div class = "button">
-									<a   href  = "mailto:info@finwayfinance.com.au" class = "btn">Contact Now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End Single Slider -->
-				<!-- Start Single Slider -->
-				<div class="single-slider" style="background-image:url('img/slider_refinance.jpg'); background-position: right; background-size: contain;">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7">
-								<div class="text">
-									<h1>Revitalise Your Finances with <span>Home Loan Refinancing</span></h1>
-									<p>Transform your mortgage, optimize payments, and unlock savings.</p>
-									<div class = "button">
-									<a href="mailto:info@finwayfinance.com.au" class="btn">Contact Now</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Start End Slider -->
+<!-- Slider Area -->
+<section class="slider">
+    <div class="hero-slider owl-carousel">
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('img/slider_1st_home_buyer.jpg'); background-position: right; background-size: contain;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="text">
+                            <h1>Start Your Journey with <span>First Home Buyer</span> Support</h1>
+                            <p>Make your dream home a reality with tailored guidance and solutions.</p>
+                            <div class="button">
+                                <a href="mailto:info@finwayfinance.com.au" class="btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('img/slider_refinance.jpg'); background-position: right; background-size: contain;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="text">
+                            <h1>Revitalise Your Finances with <span>Home Loan Refinancing</span></h1>
+                            <p>Transform your mortgage, optimize payments, and unlock savings.</p>
+                            <div class="button">
+                                <a href="mailto:info@finwayfinance.com.au" class="btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+        <!-- Start Single Slider -->
+        <div class="single-slider" style="background-image:url('img/slider_bussine_loan.jpg'); background-position: right; background-size: contain;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="text">
+                            <h1>Unlock Your Business Potential with <span>Business Loan Solutions</span></h1>
+                            <p>Empower your vision with flexible financing designed for you.</p>
+                            <div class="button">
+                                <a href="mailto:info@finwayfinance.com.au" class="btn">Contact Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slider -->
+    </div>
+</section>
+<!--/ End Slider Area -->
 
-			</div>
-		</section>
-		<!--/ End Slider Area -->
-		    <script>
-    $(document).ready(function(){
-      $(".hero-slider").owlCarousel({
-        items: 2,
+<script>
+$(document).ready(function(){
+    $('.hero-slider').owlCarousel({
         loop: true,
+        margin: 0,
         nav: true,
-        dots: true,
+        items: 1,
         autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true
-      });
+        autoplayTimeout: 5000,
+        navText: ["<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-right'></i>"],
+        dots: true,
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
     });
-    </script>
+});
+</script>
+
 
 		<!-- Start Schedule Area -->
 		<section class="schedule">
@@ -390,52 +411,67 @@ Our team has deep knowledge of the mortgage journey and is dedicated to guiding 
 		</div>
 		<!--/Ens clients -->
 
-	    <!-- Include jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Include Owl Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<!-- jQuery Min JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<!-- jQuery Migrate JS -->
+<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
 
-		<!-- jquery Min JS -->
-        <script src="js/jquery.min.js"></script>
-		<!-- jquery Migrate JS -->
-		<script src="js/jquery-migrate-3.0.0.js"></script>
-		<!-- jquery Ui JS -->
-		<script src="js/jquery-ui.min.js"></script>
-		<!-- Easing JS -->
-        <script src="js/easing.js"></script>
-		<!-- Color JS -->
-		<script src="js/colors.js"></script>
-		<!-- Popper JS -->
-		<script src="js/popper.min.js"></script>
-		<!-- Bootstrap Datepicker JS -->
-		<script src="js/bootstrap-datepicker.js"></script>
-		<!-- Jquery Nav JS -->
-        <script src="js/jquery.nav.js"></script>
-		<!-- Slicknav JS -->
-		<script src="js/slicknav.min.js"></script>
-		<!-- ScrollUp JS -->
-        <script src="js/jquery.scrollUp.min.js"></script>
-		<!-- Niceselect JS -->
-		<script src="js/niceselect.js"></script>
-		<!-- Tilt Jquery JS -->
-		<script src="js/tilt.jquery.min.js"></script>
-		<!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js"></script>
-		<!-- counterup JS -->
-		<script src="js/jquery.counterup.min.js"></script>
-		<!-- Steller JS -->
-		<script src="js/steller.js"></script>
-		<!-- Wow JS -->
-		<script src="js/wow.min.js"></script>
-		<!-- Magnific Popup JS -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<!-- Counter Up CDN JS -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
+<!-- jQuery UI JS -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- Easing JS -->
+<!-- Ensure the latest version of Easing JS -->
+<script src="js/easing.js"></script>
+
+<!-- Color JS -->
+<script src="js/colors.js"></script>
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+
+<!-- Bootstrap Datepicker JS -->
+<script src="js/bootstrap-datepicker.js"></script>
+
+<!-- jQuery Nav JS -->
+<script src="js/jquery.nav.js"></script>
+
+<!-- Slicknav JS -->
+<script src="js/slicknav.min.js"></script>
+
+<!-- ScrollUp JS -->
+<script src="js/jquery.scrollUp.min.js"></script>
+
+<!-- Niceselect JS -->
+<script src="js/niceselect.js"></script>
+
+<!-- Tilt jQuery JS -->
+<script src="js/tilt.jquery.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="js/owl-carousel.js"></script>
+
+<!-- Counterup JS -->
+<script src="js/jquery.counterup.min.js"></script>
+
+<!-- Steller JS -->
+<script src="js/steller.js"></script>
+
+<!-- Wow JS -->
+<script src="js/wow.min.js"></script>
+
+<!-- Magnific Popup JS -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<!-- Counter Up CDN JS -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Main JS -->
+<script src="js/main.js"></script>
+
 
     </body>
 </html>
